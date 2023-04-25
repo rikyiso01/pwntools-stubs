@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pwntools-stubs"
 version = "0.1.0"
-description = "Type stubs for pwntools"
+description = "Incomplete, and probably incorrect, stubs for pwntools"
 authors = ["rikyiso01 <riky.isola@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "pwnlib-stubs" }, { include = "pwn-stubs" }]
