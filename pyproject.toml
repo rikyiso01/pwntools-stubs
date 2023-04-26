@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pwntools-stubs"
-version = "0.1.1"
+version = "0.1.2"
 description = "Incomplete, and probably incorrect, stubs for pwntools"
 authors = ["rikyiso01 <riky.isola@gmail.com>"]
 readme = "README.md"
