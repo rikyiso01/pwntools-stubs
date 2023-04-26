@@ -5,7 +5,7 @@ from collections.abc import Callable
 class process(tube):
     def __init__(
         self,
-        argv: list[str] = ...,
+        argv: list[str] | str = ...,
         shell: bool = ...,
         executable: str = ...,
         cwd: str = ...,
