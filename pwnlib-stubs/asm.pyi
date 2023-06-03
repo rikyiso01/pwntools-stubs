@@ -8,7 +8,7 @@ def asm(
 def disasm(
     data: bytes,
     vma: int = ...,
-    extract: bool = ...,
-    shared: bool = ...,
+    byte: bool = ...,
+    offset: bool = ...,
     **kwargs: dict[str, str]
 ) -> str: ...
